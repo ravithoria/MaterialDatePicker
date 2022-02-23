@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <!--make sure to give the appropriate IDs to textView
+        and the button to handle them in MainActivity.java-->
+
+    <!--simple text view to show the selected date by the user-->
+    <TextView
+        android:id="@+id/show_selected_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="128dp"
+        android:text="Selected Date is : "
+        android:textSize="18sp" />
+
+    <!--button to open the material design date picker dialog-->
+    <Button
+        android:id="@+id/pick_date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="Select Date"
+        android:textSize="18sp" />
+
+</LinearLayout>
