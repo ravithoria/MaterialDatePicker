@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         //calendarConstraints.setValidator(DateValidatorPointBackward.now()); // disable future date, not today date
 
         // ====================Custom Calendar
-        Calendar calendar = Calendar.getInstance();
+        //Calendar calendar = Calendar.getInstance();
 
         // 3. - issue - today date disable but by default selected
         //custom - "disable past date with today date" using Calendar.DATE
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         calendarConstraints.setValidator(DateValidatorPointForward.from(calendar.getTimeInMillis()));*/
 
         // selected what calendar set from past - future -> using Calendar.DATE
-        materialDateBuilder.setSelection(calendar.getTimeInMillis());
+        //materialDateBuilder.setSelection(calendar.getTimeInMillis());
 
         // ===================Custom Calendar Over
 
